@@ -1,0 +1,14 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# IA y transcripción
+anthropic>=0.28.0
+openai-whisper>=20231117
+
+# Procesamiento de video
+ffmpeg-python>=0.2.0
+
+# Opcional: en producción usa Redis para el store
+# redis>=5.0.0
+# aioredis>=2.0.0
